@@ -9,7 +9,7 @@ public class Demo {
     return "Hello, World!";
   }
   
-  public double getMPG() {
+  public double getTravelCost() {
     return (this.mpgData[0]/this.mpgData[1]) * this.mpgData[2];
   }
 }

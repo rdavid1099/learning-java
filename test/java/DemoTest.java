@@ -9,8 +9,8 @@ public class DemoTest {
     assertEquals("Hello, World!", Demo.main());
   }
   
-  public void testThatDemoReturnsCorrectMPG() {
-    assertEquals(63.75, new Demo([500, 20, 2.55]).getMPG());
+  public void testThatDemoReturnsCorrectTravelCost() {
+    assertEquals(63.75, new Demo([500, 20, 2.55]).getTravelCost());
   }
   
 }
